@@ -23,10 +23,10 @@ function App() {
               <input id='dif' type='number' placeholder='7'/>
             </div>
             <div className='form-goup'>
-            <button className='label-fim' id='confirm-button'>Criar Tarefa</button>
+            <button className='label-fim' id='confirm'>Criar Tarefa</button>
             </div>
         
-            <div class="results">
+            <div class="form-goup">
             <h2>Resultado</h2>
             <table id="student-table">
                   <tr>

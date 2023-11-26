@@ -1,4 +1,4 @@
-const button = document.getElementById('confirm-button');
+const button = document.getElementById('confirm');
 const studentTable = document.getElementById('student-table');
 
 function addrow(titulo, dificuldade){
@@ -17,13 +17,9 @@ function addTarefa(){
     const titulo = document.getElementById('title').value;
     const dificuldade = document.getElementById('dif').value;
    
-
-   
     addrow(titulo, dificuldade);
     // document.getElementById('title').value = '';
     // document.getElementById('dif').value = '';
-    
-
 }
 
 //addEventListener aguarda um evento
